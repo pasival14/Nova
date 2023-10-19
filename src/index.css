@@ -26,6 +26,18 @@
   @apply w-[100%]
 }
 
+.rev {
+  @apply relative tracking-[1px]
+}
+
+.rev:after {
+  @apply content-[''] bg-[#16446a] h-[2px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+}
+
+.rev:hover::after {
+  @apply w-[100%]
+}
+
 .slider {
   @apply h-[90px] flex items-center justify-center text-center
 }

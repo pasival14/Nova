@@ -60,11 +60,11 @@ const Footer = () => {
         <div>
           <div className='text-xl pl-5 pb-5'>
             <p className='pb-1'>Email</p>
-            <a href="mailto:design@novainnovations.com">design@novainnovations.com</a>
+            <a href="mailto:design@novainnovations.com" className='rev'>design@novainnovations.com</a>
           </div>
           <div className='text-xl pl-5 pb-7'>
             <p>Phone</p>
-            <a href="tel:(234)-806-579">(234)-806-579</a>
+            <a className='rev' href="tel:(234)-806-579">(234)-806-579</a>
           </div>
           <div className='border py-2 w-[250px] text-black ml-4 border-black rounded-full hover:text-white hover:bg-gray-500'>
           <button className='text-2xl px-10 items-center pl-16 pb-1'>Contact us</button>
