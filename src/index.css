@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav {
-  @apply relative tracking-[1px] sm:text-xl text-white ml-8 
+  @apply relative tracking-[1px] text-xl text-white ml-8 block sm:bg-inherit w-full
 }
 
 .nav:after {

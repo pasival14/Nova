@@ -23,22 +23,22 @@ const Navbar = () => {
                 <img src={menu} alt="menu" onClick={burger} />
               </div>
             </div>
-            <div className='grid grid-cols-1 place-items-center sm:mt-2' onClick={burger} >
-              <ul className='h-[50vh] sm:h-auto sm:flex hidden md:inline-flex sm:mr-2' ref={navRef}>
+            <div className='grid grid-cols-1 place-items-center sm:mt-4' onClick={burger} >
+              <ul className=' hidden md:inline-flex' ref={navRef}>
                 <li>
-                  <a href="/" className='text-2xl nav'>Products</a>
+                  <a href="/" className='nav'>Products</a>
                 </li>
                 <li>
-                  <a href="/" className='text-2xl nav'>Resources</a>
+                  <a href="/" className='nav'>Resources</a>
                 </li>
                 <li>
-                  <a href="/" className='text-2xl nav'>About Us</a>
+                  <a href="/" className='nav'>About Us</a>
                 </li>
                 <li>
-                  <a href="/" className='text-2xl nav'>Our Clients</a>
+                  <a href="/" className='nav'>Our Clients</a>
                 </li>
                 <li>
-                  <a href="/" className='text-2xl nav'>Contact Us</a>
+                  <a href="/" className='nav'>Contact Us</a>
                 </li>
               </ul>
             </div>
