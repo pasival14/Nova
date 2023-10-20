@@ -6,7 +6,7 @@ import whats from './img/whats.png'
 
 const Footer = () => {
   return (
-    <div className=''>
+    <div className=' overflow-x-hidden'>
       <div className="grid grid-cols-3 bg-[#eff2f3] text-[#16446a] p-5 pt-10">
         <div>
           <h1 className="text-6xl font-bold p-10 pb-0">Nova</h1>

@@ -4,25 +4,25 @@ import Slide from "./Slider";
 
 const Home = () => {
   return (
-    <div className="bg-[#16446a] text-white">
+    <div className="bg-[#16446a] text-white overflow-x-hidden">
         <div className="">
           <div
-            className="h-[706px] bg-cover bg-no-repeat bg-center text-gray-200"
+            className="h-[500px]  sm:h-[706px] bg-cover bg-no-repeat bg-center text-gray-200"
             style={{
               backgroundImage: "url('https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
             }}
           >
-            <div className="pt-[350px] pl-4">
-              <h2 className='text-6xl font-bold pb-7'>Structural vision <br /> and Modern elegance</h2>
-              <hr className='w-[50%]' />
-              <p className='text-2xl pt-4'>Where design and innovation converge to redefine spaces.</p>
+            <div className="pt-[300px] sm:pt-[350px]">
+              <h2 className='text-4xl sm:text-6xl font-bold pl-4 pb-7'>Structural vision <br /> and Modern elegance</h2>
+              <hr className='w-full sm:w-[50%]' />
+              <p className='text-2xl pl-4 pt-4'>Where design and innovation converge to redefine spaces.</p>
             </div>
           </div>
         </div>
         <div className=''>
           <div className="pl-6 text-[#16446a] py-8 bg-[#F5F5DC]">
-            <h2 className='text-4xl font-bold'>What we offer</h2>
-            <p className='text-3xl mt-3 mb-7'>At our construction design firm, we don't just design structures; we craft dreams.
+            <h2 className='text-3xl sm:text-4xl font-bold'>What we offer</h2>
+            <p className='text-2xl sm:text-3xl mt-3 mb-7'>At our construction design firm, we don't just design structures; we craft dreams.
             </p>
           </div>
           <Parallax className="overflow-clip" strength={-300} bgImage={imag} bgImageAlt="this"
