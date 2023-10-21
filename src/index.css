@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav {
-  @apply relative tracking-[1px] text-xl text-white ml-8 block sm:bg-inherit w-full
+  @apply relative tracking-[1px] text-xl text-white text-center sm:ml-8 block sm:bg-inherit w-full
 }
 
 .nav:after {
@@ -23,7 +23,7 @@
 }
 
 .foot:hover::after {
-  @apply w-[100%]
+  @apply sm:w-[100%]
 }
 
 .rev {

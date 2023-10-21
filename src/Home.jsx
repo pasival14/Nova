@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       <div className="text-3xl  sm:mt-24 pt-4 sm:pt-0">
-        <hr />
+        <hr className="sm:hidden" />
         <div className="grid grid-cols-1 place-items-center sm:grid-cols-5 overflow-hidden sm:p-10">
           <p className="col-span-2 pb-3 text-center sm:pt-[165px]">Our services encompass a <br />spectrum of expertise, <br />from architectural marvels,</p>
           <div className="h-[400px] w-[90%] pl-2 sm:w-[80%] rounded-xl sm:hover:scale-110 duration-500 sm:ml-24 col-span-3 bg-cover bg-no-repeat bg-center"
@@ -46,7 +46,7 @@ const Home = () => {
               backgroundImage: "url('https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
             }}></div>
         </div>
-        <hr className="my-4 sm:my-0" />
+        <hr className="my-4 sm:my-0 sm:hidden" />
         <div className="grid grid-cols-1 pt-2 place-items-center sm:grid-cols-5 overflow-hidden sm:p-10">
           <div className="h-[400px] w-[90%] sm:w-[80%] rounded-xl sm:hover:scale-110 duration-500 sm:ml-24 col-span-3 bg-cover bg-no-repeat bg-center"
             style={{
@@ -54,7 +54,7 @@ const Home = () => {
             }}></div>
           <p className="col-span-2 pt-5 text-center sm:pt-[165px]">Our renowned innovative, technologically <br /> advanced and sustainable <br /> structural design,</p>
         </div>
-        <hr className="my-3"/>
+        <hr className="my-3 sm:hidden"/>
         <div className="grid grid-cols-1 place-items-center sm:grid-cols-5 overflow-hidden sm:p-10">
           <p className="col-span-2 pb-8 text-center sm:pt-[165px]">Our reliable cutting-edge, <br /> efficient and sustainable <br />electrical design solutions,</p>
           <div className="h-[400px] w-[90%] sm:w-[80%] rounded-xl sm:hover:scale-110 duration-500 sm:ml-24 col-span-3 bg-cover bg-no-repeat bg-center"
@@ -62,7 +62,7 @@ const Home = () => {
               backgroundImage: "url('https://images.pexels.com/photos/17574781/pexels-photo-17574781/free-photo-of-clouds-illuminated-with-sunset.jpeg?auto=compress&cs=tinysrgb&w=600')",
             }}></div>
         </div>
-        <hr className="my-4 sm:my-0"/>
+        <hr className="my-4 sm:my-0 sm:hidden"/>
         <div className="grid grid-cols-1 place-items-center sm:grid-cols-5">
           <div className="h-[400px]  w-[90%] sm:w-[80%] rounded-xl sm:mr-[150px] sm:hover:scale-110 duration-500 sm:ml-24 col-span-3 bg-cover bg-no-repeat bg-center"
             style={{
@@ -70,7 +70,7 @@ const Home = () => {
             }}></div>
           <p className="col-span-2 text-center pt-2 sm:pt-[165px]">Our technologically adept <br />and carefully tailored <br /> state-of-the-art <br />mechanical designs,</p>
         </div>
-        <hr className="my-4 sm:my-0"/>
+        <hr className="my-4 sm:my-0 sm:hidden"/>
         <div className="grid grid-cols-1 place-items-center sm:grid-cols-5 overflow-hidden sm:p-10">
           <p className="col-span-2 pb-2 text-center sm:pt-[165px]">Our cost-effective and<br />quantitative analysis of your <br />budget and expenditures,</p>
           <div className="h-[400px] w-[90%] sm:w-[80%] rounded-xl sm:hover:scale-110 duration-500 sm:ml-24 col-span-3 bg-cover bg-no-repeat bg-center"
@@ -78,7 +78,7 @@ const Home = () => {
               backgroundImage: "url('https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
             }}></div>
         </div>
-        <hr className="my-4 sm:my-0"/>
+        <hr className="my-4 sm:my-0 sm:hidden"/>
         <div className="grid grid-cols-1 place-items-center sm:grid-cols-5">
           <div className="h-[400px] w-[90%] sm:w-[80%] rounded-xl sm:mr-[150px] sm:hover:scale-110 duration-500 sm:ml-24 col-span-3 bg-cover bg-no-repeat bg-center"
             style={{
@@ -86,7 +86,7 @@ const Home = () => {
             }}></div>
           <p className="col-span-2 text-center pb-3 sm:pt-[165px]">Our results-oriented, strategic<br /> and insightful consulting <br />services to help clients make<br /> informed decisions.</p>
         </div>
-        <hr />
+        <hr className="sm:hidden" />
       </div>
       
       <div>
