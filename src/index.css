@@ -39,5 +39,5 @@
 }
 
 .slider {
-  @apply h-[90px] flex items-center justify-center text-center
+  @apply h-[60px] pb-2 sm:h-[90px] flex items-center justify-center text-center
 }

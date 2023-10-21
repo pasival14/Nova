@@ -6,37 +6,39 @@ import whats from './img/whats.png'
 
 const Footer = () => {
   return (
-    <div className=' overflow-x-hidden'>
-      <div className="grid grid-cols-3 bg-[#eff2f3] text-[#16446a] p-5 pt-10">
-        <div>
-          <h1 className="text-6xl font-bold p-10 pb-0">Nova</h1>
-          <ul className="text-xl flex pl-10">
-            <li className=' h-[25px] w-[25px] mr-2 p-1 border border-black rounded-full hover:rounded-lg'>
-              <a href="/">
-                <img src={face} alt="" />
-              </a>
-            </li>
-            <li className=' h-[25px] mr-2 w-[25px] p-1 border border-black rounded-full hover:rounded-lg'>
-              <a href="/">
-                <img src={gram} alt="" />
-              </a>
-            </li>
-            <li className=' h-[25px] w-[25px] mr-2 p-1 border border-black rounded-full hover:rounded-lg'>
-              <a href="/">
-                <img src={linkedin} alt="" />
-              </a>
-            </li>
-            <li className=' h-[25px] w-[25px] mr-2 p-1 border border-black rounded-full hover:rounded-lg'>
-              <a href="/">
-                <img src={tweet} alt="" />
-              </a>
-            </li>
-            <li className=' h-[25px] w-[25px] p-1 border border-black rounded-full hover:rounded-lg'>
-              <a href="/">
-                <img src={whats} alt="" />
-              </a>
-            </li>
-          </ul>
+    <div className=' overflow-x-hidden '>
+      <div className="grid grid-cols-1 place-items-center sm:grid-cols-3 bg-[#eff2f3] text-[#16446a] p-5 sm:pt-10">
+        <div className='sm:-mt-8 relative'>
+          <div className='sm:absolute top-0 left-0'>
+            <h1 className="text-6xl font-bold sm:p-10 pb-0">Nova</h1>
+            <ul className="text-xl flex sm:pl-10 sm:-mt-10">
+              <li className=' h-[30px] w-[30px] sm:h-[25px] sm:w-[25px] mr-2 p-1 border border-black rounded-full hover:rounded-lg'>
+                <a href="/">
+                  <img src={face} alt="" />
+                </a>
+              </li>
+              <li className=' h-[30px] w-[30px] sm:h-[25px] sm:w-[25px] p-1 mr-2 border border-black rounded-full hover:rounded-lg'>
+                <a href="/">
+                  <img src={gram} alt="" />
+                </a>
+              </li>
+              <li className=' h-[30px] w-[30px] sm:h-[25px] sm:w-[25px] mr-2 p-1 border border-black rounded-full hover:rounded-lg'>
+                <a href="/">
+                  <img src={linkedin} alt="" />
+                </a>
+              </li>
+              <li className=' h-[30px] w-[30px] sm:h-[25px] sm:w-[25px] mr-2 p-1 border border-black rounded-full hover:rounded-lg'>
+                <a href="/">
+                  <img src={tweet} alt="" />
+                </a>
+              </li>
+              <li className='h-[30px] w-[30px] sm:h-[25px] sm:w-[25px] p-1 border border-black rounded-full hover:rounded-lg'>
+                <a href="/">
+                  <img src={whats} alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="text-2xl font-bold">
           <ul className="">
