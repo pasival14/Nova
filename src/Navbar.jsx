@@ -1,18 +1,18 @@
-import { useRef } from 'react';
+import { useState } from 'react';
 import logo from './img/logo.png'
 import menu from './img/menu.png'
 
 const Navbar = () => {
+const [isOpen, setIsOpen] = useState(false); 
+const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
 
-  const navRef = useRef();
-
-  const burger = () => {
-    navRef.current.classList.toggle("hidden")
-  }
+ 
 
   return (
     <div className="relative overflow-x-hidden">
-      <nav className="fixed top-0 left-0 z-50 w-full bg-transparent backdrop-blur-md backdrop-filter">
+      <nav className="{`navbar ${isOpen ? 'open' : ''}`} fixed top-0 left-0 z-50 w-full bg-transparent backdrop-blur-md backdrop-filter">
         <div className='container mx-auto py-4'>
           <div className='sm:flex justify-between items-center'>
             <div className='flex justify-between'>
@@ -20,11 +20,11 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className='h-24 w-48 relative' />
               </div>
               <div className='px-4 cursor-pointer md:hidden'  >
-                <img src={menu} alt="menu" onClick={burger} />
+                <img src={menu} alt="menu" onClick={toggleNavbar} />
               </div>
             </div>
-            <div className='grid grid-cols-1 place-items-center sm:mt-4' onClick={burger} >
-              <ul className=' hidden md:inline-flex transition duration-300 ease-in-out ' ref={navRef}>
+            <div className='grid grid-cols-1 place-items-center sm:mt-4' >
+              <ul className={`nav-links ${isOpen ? 'show' : ''}`}>
                 <li>
                   <a href="/" className='nav'>Products</a>
                 </li>
