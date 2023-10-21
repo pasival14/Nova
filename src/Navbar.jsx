@@ -24,7 +24,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='grid grid-cols-1 place-items-center sm:mt-4' onClick={burger} >
-              <ul className=' hidden md:inline-flex' ref={navRef}>
+              <ul className=' hidden md:inline-flex transition duration-300 ease-in-out ' ref={navRef}>
                 <li>
                   <a href="/" className='nav'>Products</a>
                 </li>
