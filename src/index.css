@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav {
-  @apply relative tracking-[1px] text-xl text-white text-center sm:ml-8 block sm:bg-inherit w-full
+  @apply relative tracking-[1px] text-xl text-white text-center lg:ml-8 block lg:bg-inherit w-full
 }
 
 .nav:after {
@@ -11,7 +11,7 @@
 }
 
 .nav:hover::after {
-  @apply sm:w-[100%]
+  @apply lg:w-[100%]
 }
 
 .foot {
@@ -23,7 +23,7 @@
 }
 
 .foot:hover::after {
-  @apply sm:w-[100%]
+  @apply lg:w-[100%]
 }
 
 .rev {
@@ -39,5 +39,5 @@
 }
 
 .slider {
-  @apply h-[60px] pb-2 sm:h-[90px] flex items-center justify-center text-center
+  @apply h-[60px] pb-2 lg:h-[90px] flex items-center justify-center text-center
 }
